@@ -64,6 +64,9 @@ body {
   background-attachment: fixed;
   color: #404040;
   position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 header {
@@ -268,14 +271,14 @@ header .title-logo {
 
 @media (max-width: 400px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .tech-exp,
   .contact-text {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   .button {
     width: 18rem !important;
