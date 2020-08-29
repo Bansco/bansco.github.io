@@ -173,7 +173,7 @@ header .title-logo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 94%;
+  width: 90%;
   margin: auto;
 }
 
@@ -260,6 +260,7 @@ header .title-logo {
 @media (max-width: 500px) {
   .tech-exp,
   .contact-text,
+  .icon-container-comp,
   .subtitle {
     width: 100%;
   }
