@@ -175,9 +175,11 @@ header .title-logo {
 }
 
 .icon-comp {
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 0.7rem;
   cursor: default;
+  display: flex;
+  align-items: center;
 }
 
 .icon-comp:last-child {
@@ -190,6 +192,7 @@ header .title-logo {
   vertical-align: middle;
   color: rgba(3, 27, 78, 0.7);
   cursor: default;
+  margin-right: 0.2rem;
 }
 
 .icon-comp:hover i {
