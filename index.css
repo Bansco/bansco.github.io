@@ -248,7 +248,7 @@ header .title-logo {
   color: #3d7aed;
   text-align: center;
   font-size: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 500px) {
@@ -260,5 +260,22 @@ header .title-logo {
 
   .title {
     font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .tech-exp,
+  .contact-text {
+    font-size: 0.95rem;
+  }
+  .button {
+    width: 18rem !important;
+    padding: 0.9em 4em !important;
   }
 }
