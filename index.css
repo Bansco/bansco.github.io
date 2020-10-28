@@ -327,6 +327,15 @@ header .title-logo {
   margin-left: 1px;
 }
 
+.tag {
+  color: #fff;
+  background: #3d7aed;
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
 /* Responsive ----- */
 
 @media (max-width: 500px) {
